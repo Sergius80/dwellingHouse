@@ -5,9 +5,72 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Жилой дом</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  
+  <header class="header">
+    <div class="container clearFix">
+      <div class="logo">
+        <a class="logo__Link" href="/">
+          ЖИЛОЙ ДОМ
+          <strong class="logo__fontSmaller">
+          ХАРЬКОВСКАЯ ОБЛАСТЬ
+        </strong>
+        </a>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list clearFix">
+          <li class="header__item"> 
+            <a class="header__link" href="#">
+              Инфраструктура
+            </a>
+          </li>
+          <li class="header__item"> 
+            <a class="header__link" href="#">
+              Планировки и цены
+            </a>
+          </li>
+          <li class="header__item">        
+            <a class="header__link" href="#">
+              Материалы и отделка
+            </a>
+          </li>
+          <li class="header__item">         
+            <a class="header__link" href="#">
+              Документы
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="phoneBox">
+        <a class="phoneBox__tel" href="tel:+380 (000) 000-00-00">+380 (000) 000-00-00</a>
+        <a class="phoneBox__btnCallback" href="#">Заказать звонок</a>
+      </div>
+    </div>
+    <div class="offer">
+      <div class="offer__text">
+        <p class="paragraph"><span class="fontBold">Дом готов</span>, идёт внутренняя отделка. Срок сдачи: <span class="fontBold">Февраль 2035</span></p>
+        <h1 class="headingH1">Ваша квартира в новострое ждет вас</h1>
+        <p class="paragraph">Уютные квартиры в <span class="fontBold">центре</span> города</p>
+      </div>
+      <form action="" class="formOrder">
+        <div class="formOrder__header">
+          <h2 class="headingH2">Запишитесь на просмотр прямо сейчас!</h2>
+          <p class="paragraph">Покажем Вам квартиры в удобное для Вас время</p>
+        </div>
+        <input type="text" placeholder="Имя">
+        <input type="tel" placeholder="Телефон">
+        <input type="button" value="Записаться на просмотр!">
+      </form>
+    </div>
+  </header>
 </body>
 </html>

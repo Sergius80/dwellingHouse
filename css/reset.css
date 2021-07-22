@@ -56,15 +56,14 @@ a:hover {
 }
 
 body {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.3em;
-  font-weight: 400;
-  color: #636363;
-  font-family: 'Open Sans', sans-serif;
-  background: #F9F9F9;
+  font-weight: 300;
+  color: #000;
+  font-family: 'Roboto Slab', serif;
 }
 
 a {
-  color: #222;
-  font-size: 15px;
+  color: #000;
+  font-size: 14px;
 }
